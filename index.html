@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP4 Web-Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> CP4 Web-Dev </h1>
+    </header>
+    
+ <section id="cadastro">
+      <h2> Adicionar / Editar Jogadora </h2>
+      <form id="forms">
+        <input type="hidden" id="edicao">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="posicao" placeholder="Posição" required>
+        <input type="text" id="clube" placeholder="Clube" required>
+        <input type="number" id="gols" placeholder="Gols" required>
+        <input type="number" id="assistencias" placeholder="Assistências" required>
+        <input type="number" id="jogos" placeholder="Jogos" required>
+        <input type="url" id="foto" placeholder="URL da Foto" required>
+        <button type="submit">Salvar</button>
+      </form>
+    </section>
+        <section id="lista-jogadoras"></section>
+  </main>
+
+</body>
+<script src="app.js"></script>
+</html>
